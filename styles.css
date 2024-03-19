@@ -1,0 +1,53 @@
+body {
+    padding-top: 56px; 
+    
+}
+
+#mainNav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    background-color: #b38471; 
+    color: white;
+}
+
+.section {
+    padding-top: 80px;
+    background-color: #fff5e0;
+}
+
+.navbar-brand {
+    font-size: 20px; 
+    color:#fff5e0
+}
+
+/* En tu archivo CSS */
+.about .col-md-4 img {
+    width: 113%; /* Ancho al 100% del contenedor */
+    max-width: none; /* Anula el máximo ancho predeterminado */
+    display: block; /* Para que la imagen ocupe todo el ancho disponible */
+    margin-left: 18% /* Alinea la imagen a la derecha */
+}
+
+
+#boton {
+    background-color: #b38471; /* Color de fondo */
+    color: white; /* Color del texto */
+    border: none; /* Quita el borde */
+    padding: 10px 20px; /* Espaciado interno del botón */
+    text-align: center; /* Alineación del texto */
+    display: inline-block; /* Hace que el botón se comporte como un bloque en línea */
+    font-size: 16px; /* Tamaño de la fuente */
+    cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
+    border-radius: 5px; /* Bordes redondeados */
+}
+
+#boton:hover {
+    background-color: #ddad9c; /* Color de fondo al pasar el mouse */
+}
+
+.navbar-brand{
+    color:beige;
+}

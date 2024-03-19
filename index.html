@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio de Desarrollador Web - Estilo Moderno</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-gradient-light" id="mainNav">
+        <!-- Contenido de la barra de navegación -->
+        <a class="navbar-brand" href="#">Mi Portafolio</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#sobre-mi">Sobre Mí</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#portafolio">Portafolio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contacto">Contacto</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Sobre Mí -->
+    <section id="sobre-mi" class="bg-gradient-dark py-5">
+        <!-- Contenido de la sección Sobre Mí -->
+        <div class="container about">
+            <h2 class="text-center mb-4" id="aboutTitle">Sobre Mí</h2>
+            <div class="row">
+                <div class="col-md-6">
+                    <h3>¡Hola! Soy Sharik</h3>
+                    <p>
+                        Me llamo Sharik Galvis, soy una desarrolladora web apasionada por crear
+                        excelentes experiencias digitales. Mi enfoque principal se centra en las bases de datos y el
+                        desarrollo front-end, donde combino mi creatividad con habilidades técnicas para construir
+                        productos digitales impresionantes.
+
+                        Como desarrolladora, escucho atentamente las necesidades de los usuarios y los objetivos del
+                        proyecto, lo que me permite crear soluciones que no solo sean funcionales, sino también
+                        atractivas y fáciles de usar. Mi compromiso con la responsabilidad y la mejora continua me
+                        impulsa a perfeccionar mis habilidades constantemente, manteniéndome al día con las últimas
+                        tendencias y tecnologías en el mundo del desarrollo web. Estoy emocionada por la oportunidad de
+                        contribuir a proyectos innovadores y desafiantes que me permitan aplicar y expandir mis
+                        habilidades como desarrolladora web. ¡Espero poder colaborar contigo para llevar tus ideas al
+                        siguiente nivel digital!
+
+                        ¡Gracias por visitar mi portafolio!</p>
+                    <!-- agrega información acera de tu perfil profesional (lo que eres o esperas ser) -->
+
+                    <!-- Agrega el enlace de descarga de la hoja de vida con un ícono -->
+                    <a href="./DOCUMENTOS/Hoja de vida.pdf" download>
+                        <i class="fa fa-download"></i> Descargar Hoja de Vida
+                    </a>
+                </div>
+                <div class="col-md-4">
+                    <img src="./IMAGENES/perfil.jpg" alt="Imagen de Perfil" class="img-fluid rounded-circle">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portafolio -->
+    <section id="portafolio" class="py-5 bg-light">
+        <!-- Contenido de la sección Portafolio -->
+        <div class="container">
+            <h2 class="text-center mb-4">Portafolio</h2>
+            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                <div class="carousel-inner">
+                    <!-- Proyecto 1 -->
+                    <div class="carousel-item active">
+                        <div class="row">
+                            <div class="col-md-4">
+                                <div class="card">
+                                    <img src="./IMAGENES/database.png" class="card-img-top" alt="Proyecto 1">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Proyecto 1</h5>
+                                        <p class="card-text"> Al crear una base de datos se aplico los conocimientos
+                                            respescto a SQL SERVER, consultas, vistas y procedimientos.</p>
+                                        <a href="https://github.com/sharikgalvis0/BaseDatos.git">Ver más</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item active">
+                                <div class="row">
+                                    <div class="col-md-4">
+                                        <div class="card">
+                                            <img src="./IMAGENES/lenguajes-de-programacion-1024x572.jpeg"
+                                                class="card-img-top" alt="Proyecto 1">
+                                            <div class="card-body">
+                                                <h5 class="card-title">Proyecto 2</h5>
+                                                <p class="card-text">Se desarrollaron actividades que se centraron en
+                                                    HTML, CSS y JAVASCRIPT para el desarrollo web.</p>
+                                                <a href="https://github.com/sharikgalvis0/MiPrimeraApp.git">Ver más</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item active">
+                                        <div class="row">
+                                            <div class="col-md-4">
+                                                <div class="card">
+                                                    <img src="./IMAGENES/progama1.jpg" class="card-img-top"
+                                                        alt="Proyecto 1">
+                                                    <div class="card-body">
+                                                        <h5 class="card-title">Proyecto 3</h5>
+                                                        <p class="card-text">Proyecto de un sistema de calculadora de notas en equipo.</p>
+                                                        <a href="https://github.com/sharikgalvis0/TallerSgbSharikGalvis.git">Ver más</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- Añade más proyectos aquí -->
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Añade más proyectos aquí -->
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contacto -->
+    <section id="contacto" class="py-5">
+        <!-- Contenido de la sección Contacto -->
+        <div class="container">
+            <h2 class="text-center mb-4">Contacto</h2>
+            <div class="row">
+                <div class="col-md-6 mx-auto">
+                    <form action="#" method="POST">
+                        <div class="form-group">
+                            <label for="nombre">Nombre</label>
+                            <input type="text" id="nombre" name="nombre" class="form-control">
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Correo Electrónico</label>
+                            <input type="email" id="email" name="email" class="form-control">
+                        </div>
+                        <div class="form-group">
+                            <label for="mensaje">Mensaje</label>
+                            <textarea name="mensaje" id="mensaje" rows="5" class="form-control"></textarea>
+                        </div>
+                        <button type="submit" id= "boton" class="btn btn-success btn-block">Enviar Mensaje</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pie de Página -->
+    <footer class="bg-light py-4">
+        <!-- Contenido del pie de página -->
+        <div class="container text-center">
+            <!-- Enlaces de Redes Sociales -->
+            <div class="social-icons text-white">
+                <a href="https://www.linkedin.com/in/sharik-galvis-garzon-30a18a29b" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                <a href="mailto:tucorreo@gmail.com"><i class="far fa-envelope"></i></a>
+                <a href="https://github.com/sharikgalvis0" target="_blank"><i class="fab fa-github"></i></a>
+            </div>
+            <!-- Información adicional del pie de página -->
+            <p>&copy; 2024 - Todos los derechos reservados</p>
+        </div>
+        <!-- Scripts -->
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+        <script src="./main.js"></script>
+    </footer>
+</body>
+
+</html>
